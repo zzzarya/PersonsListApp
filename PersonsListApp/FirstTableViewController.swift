@@ -34,6 +34,14 @@ class FirstTableViewController: UITableViewController {
 
         return cell
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        guard let moreInfoVC = segue.destination as? MoreInfoViewController else { return }
+        guard let index = tableView.indexPathForSelectedRow else { return }
+        let person = personList[index.row]
+        moreInfoVC.person = person
+    }
+}
 
 
     /*
@@ -81,4 +89,4 @@ class FirstTableViewController: UITableViewController {
     }
     */
 
-}
+

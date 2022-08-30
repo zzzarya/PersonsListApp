@@ -16,6 +16,7 @@
 		60F3E63A28BE2A05008A00F9 /* SecondTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F3E63928BE2A05008A00F9 /* SecondTableViewController.swift */; };
 		60F3E63C28BE2A7D008A00F9 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F3E63B28BE2A7D008A00F9 /* Person.swift */; };
 		60F3E63E28BE2A98008A00F9 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F3E63D28BE2A98008A00F9 /* DataManager.swift */; };
+		60F3E64028BE3D8B008A00F9 /* MoreInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F3E63F28BE3D8B008A00F9 /* MoreInfoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		60F3E63928BE2A05008A00F9 /* SecondTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTableViewController.swift; sourceTree = "<group>"; };
 		60F3E63B28BE2A7D008A00F9 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		60F3E63D28BE2A98008A00F9 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		60F3E63F28BE3D8B008A00F9 /* MoreInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreInfoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,9 +68,10 @@
 				60F3E62528BE2413008A00F9 /* SceneDelegate.swift */,
 				60F3E62928BE2413008A00F9 /* Main.storyboard */,
 				60F3E63728BE29F5008A00F9 /* FirstTableViewController.swift */,
+				60F3E63F28BE3D8B008A00F9 /* MoreInfoViewController.swift */,
+				60F3E63928BE2A05008A00F9 /* SecondTableViewController.swift */,
 				60F3E63B28BE2A7D008A00F9 /* Person.swift */,
 				60F3E63D28BE2A98008A00F9 /* DataManager.swift */,
-				60F3E63928BE2A05008A00F9 /* SecondTableViewController.swift */,
 				60F3E62C28BE2414008A00F9 /* Assets.xcassets */,
 				60F3E62E28BE2414008A00F9 /* LaunchScreen.storyboard */,
 				60F3E63128BE2414008A00F9 /* Info.plist */,
@@ -150,6 +153,7 @@
 				60F3E63C28BE2A7D008A00F9 /* Person.swift in Sources */,
 				60F3E63E28BE2A98008A00F9 /* DataManager.swift in Sources */,
 				60F3E62428BE2413008A00F9 /* AppDelegate.swift in Sources */,
+				60F3E64028BE3D8B008A00F9 /* MoreInfoViewController.swift in Sources */,
 				60F3E63A28BE2A05008A00F9 /* SecondTableViewController.swift in Sources */,
 				60F3E62628BE2413008A00F9 /* SceneDelegate.swift in Sources */,
 				60F3E63828BE29F5008A00F9 /* FirstTableViewController.swift in Sources */,
