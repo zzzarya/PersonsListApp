@@ -33,9 +33,9 @@ final class SecondTableViewController: UITableViewController {
         var content = cell.defaultContentConfiguration()
         
         switch indexPath.row {
-            case 0: content.text = person.number
-                content.image = UIImage(systemName: "tray")
-            default: content.text = person.email
+        case 0: content.text = person.number
+            content.image = UIImage(systemName: "tray")
+        default: content.text = person.email
             content.image = UIImage(systemName: "phone")
         }
         
