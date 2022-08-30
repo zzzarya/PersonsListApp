@@ -14,10 +14,10 @@ struct Person {
     let email: String
 }
 
-let personInfo = DataManager()
-
 extension Person {
    static func getPersonList() -> [Person] {
+       let personInfo = DataManager()
+       
         let names = personInfo.names.shuffled()
         let surnames = personInfo.surnames.shuffled()
         let numbers = personInfo.numbers.shuffled()
