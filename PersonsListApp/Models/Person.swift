@@ -25,7 +25,7 @@ extension Person {
         
         var persons: [Person] = []
         
-        for index in 0...9 {
+       for index in 0..<names.count {
             let person = Person(name: names[index],
                                 surname: surnames[index],
                                 number: numbers[index],

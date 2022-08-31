@@ -47,7 +47,7 @@ final class FirstTableViewController: UITableViewController {
 extension FirstTableViewController {
     private func dataTransfer() {
         guard let tabBarVC = self.tabBarController else { return }
-        guard let navigationVC = tabBarVC.viewControllers?[1] as? UINavigationController else { return }
+        guard let navigationVC = tabBarVC.viewControllers?.last as? UINavigationController else { return }
         guard let secondTVC = navigationVC.topViewController as? SecondTableViewController else { return }
         secondTVC.personList = personList
         

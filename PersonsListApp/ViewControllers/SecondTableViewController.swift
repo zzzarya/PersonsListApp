@@ -21,11 +21,6 @@ final class SecondTableViewController: UITableViewController {
         2
     }
     
-    override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-        let person = personList[section]
-        return "\(person.name) \(person.surname)"
-    }
-    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "secondPerson", for: indexPath)
         
@@ -46,5 +41,10 @@ final class SecondTableViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
+    }
+    
+    override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        let person = personList[section]
+        return "\(person.name) \(person.surname)"
     }
 }
