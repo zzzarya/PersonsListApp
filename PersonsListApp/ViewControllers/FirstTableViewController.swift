@@ -9,14 +9,8 @@ import UIKit
 
 final class FirstTableViewController: UITableViewController {
     
-    var personList = Person.getPersonList()
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
+    var personList: [Person]!
         
-        dataTransfer()
-    }
-    
     // MARK: - Table view data source
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         personList.count
@@ -41,16 +35,6 @@ final class FirstTableViewController: UITableViewController {
         guard let index = tableView.indexPathForSelectedRow else { return }
         let person = personList[index.row]
         moreInfoVC.person = person
-    }
-}
-    // MARK: - Extension
-extension FirstTableViewController {
-    private func dataTransfer() {
-        guard let tabBarVC = self.tabBarController else { return }
-        guard let navigationVC = tabBarVC.viewControllers?.last as? UINavigationController else { return }
-        guard let secondTVC = navigationVC.topViewController as? SecondTableViewController else { return }
-        secondTVC.personList = personList
-        
     }
 }
 

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		603A7D1728C0B9D5009DD6DB /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603A7D1628C0B9D5009DD6DB /* MainTabBarController.swift */; };
 		60F3E62428BE2413008A00F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F3E62328BE2413008A00F9 /* AppDelegate.swift */; };
 		60F3E62628BE2413008A00F9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F3E62528BE2413008A00F9 /* SceneDelegate.swift */; };
 		60F3E62B28BE2413008A00F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60F3E62928BE2413008A00F9 /* Main.storyboard */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		603A7D1628C0B9D5009DD6DB /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		60F3E62028BE2413008A00F9 /* PersonsListApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersonsListApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60F3E62328BE2413008A00F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		60F3E62528BE2413008A00F9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 				60F3E63728BE29F5008A00F9 /* FirstTableViewController.swift */,
 				60F3E63F28BE3D8B008A00F9 /* MoreInfoViewController.swift */,
 				60F3E63928BE2A05008A00F9 /* SecondTableViewController.swift */,
+				603A7D1628C0B9D5009DD6DB /* MainTabBarController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -176,6 +179,7 @@
 			files = (
 				60F3E63C28BE2A7D008A00F9 /* Person.swift in Sources */,
 				60F3E63E28BE2A98008A00F9 /* DataManager.swift in Sources */,
+				603A7D1728C0B9D5009DD6DB /* MainTabBarController.swift in Sources */,
 				60F3E62428BE2413008A00F9 /* AppDelegate.swift in Sources */,
 				60F3E64028BE3D8B008A00F9 /* MoreInfoViewController.swift in Sources */,
 				60F3E63A28BE2A05008A00F9 /* SecondTableViewController.swift in Sources */,

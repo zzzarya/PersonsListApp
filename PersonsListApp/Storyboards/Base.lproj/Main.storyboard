@@ -169,10 +169,10 @@
             </objects>
             <point key="canvasLocation" x="-522" y="848"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Main Tab Bar Controller-->
         <scene sceneID="weP-fi-KTW">
             <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="06i-zc-wmp" sceneMemberID="viewController">
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="06i-zc-wmp" customClass="MainTabBarController" customModule="PersonsListApp" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="VpR-zn-GYm">
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
